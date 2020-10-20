@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="midterm.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jumbotron</title>
+    <h1>Welcome to Jumbotron Terminal</h1>
+    <h2>Pitsch, Kade t12r458</h2>
+    <p>Enter text into the textarea</p>
+    <textarea id="myTextArea"> </textarea>
+    <div id="myDiv">Test</div>
+    <script>
+      function getTextArea() {
+        let text = document.getElementById("myTextArea").value;
+        return text;
+      }
+      document.getElementById("myDiv").innerHTML = getTextArea();
+    </script>
+  </head>
+  <body></body>
+</html>
